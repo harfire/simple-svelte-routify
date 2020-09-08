@@ -1,8 +1,21 @@
 <script>
-    import RoutifyIntro from './example/_components/RoutifyIntro.svelte'
-    import { metatags } from '@sveltech/routify'
-    metatags.title = 'My Routify app'
-    metatags.description = 'Description coming soon...'
+  import { metatags } from '@sveltech/routify';
+
+  metatags.title = 'Simple Svelte App with Routify';
+  metatags.description = 'Simple Svelte App with Routify';
 </script>
 
-<RoutifyIntro />
+<template>
+  <div class="cont">
+    <h5 class="heading">Svelte Skeleton Ready!</h5>
+  </div>
+</template>
+
+<style lang="scss">
+  .cont {
+    .heading {
+      color: brown;
+      text-align: center;
+    }
+  }
+</style>
